@@ -1,0 +1,176 @@
+V "GNAT Lib v2017"
+A -gnatA
+A -mmacosx-version-min=10.13.4
+A -mtune=core2
+A -fPIC
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U icd%b			icd.adb			1d617931 NE OO PK IU KM
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W heart%s		heart.adb		heart.ali
+W hrm%s			hrm.adb			hrm.ali
+W impulsegenerator%s	impulsegenerator.adb	impulsegenerator.ali
+W measures%s		measures.adb		measures.ali
+W network%s		network.adb		network.ali
+W principal%s		principal.adb		principal.ali
+
+U icd%s			icd.ads			feb92b9f EE NE OO PK IU KM
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W heart%s		heart.adb		heart.ali
+W hrm%s			hrm.adb			hrm.ali
+W impulsegenerator%s	impulsegenerator.adb	impulsegenerator.ali
+W measures%s		measures.adb		measures.ali
+W network%s		network.adb		network.ali
+W principal%s		principal.adb		principal.ali
+
+D ada.ads		20170516105951 76789da1 ada%s
+D a-contai.ads		20170516105950 61e5e089 ada.containers%s
+D a-cdlili.ads		20170516105949 8e06b4f2 ada.containers.doubly_linked_lists%s
+D a-conhel.ads		20170516105951 20298884 ada.containers.helpers%s
+D a-except.ads		20170516105953 291912d5 ada.exceptions%s
+D a-finali.ads		20170516105954 bf4f806b ada.finalization%s
+D a-inteio.ads		20170516105955 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170516105949 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20170516105952 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105955 d3a89129 ada.tags%s
+D a-textio.ads		20170516105955 386df5d4 ada.text_io%s
+D a-tiinio.ads		20170516105950 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D heart.ads		20180306232354 9fbc8907 heart%s
+D hrm.ads		20180306232354 070f95d8 hrm%s
+D icd.ads		20180317064736 0c390086 icd%s
+D icd.adb		20180317075504 1593db0a icd%b
+D impulsegenerator.ads	20180306232354 31c22809 impulsegenerator%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D measures.ads		20180315143731 ab0ff7ab measures%s
+D network.ads		20180307133828 720bf374 network%s
+D principal.ads		20180307133304 ba98eec4 principal%s
+D system.ads		20170516105953 085b6ffb system%s
+D s-atocou.ads		20170516105956 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-finroo.ads		20170516105954 4ff27390 system.finalization_root%s
+D s-parame.ads		20170516105955 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170516105951 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105955 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105955 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105953 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 17|1r6 1r23 18|1r6 1r23 2r6 2r31
+X 7 a-inteio.ads
+18K13*Integer_Text_IO[13|46] 18|2w10 2r35
+X 9 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[3|69]>
+X 12 a-textio.ads
+49K13*Text_IO 471e16 17|1w10 1r27 18|1w10 1r27
+166U14*New_Line 18|51s7 110s13 139s10
+242U14*Put 18|49s7 108s13
+263U14*Put_Line 18|68s10 71s10 137s10
+X 13 a-tiinio.ads
+66U14*Put 18|50s7[7|18] 109s13[7|18] 138s10[7|18]
+67i7 Item{integer} 18|50r11[7|18] 109r17[7|18] 138r14[7|18]
+X 15 heart.ads
+7K9*Heart 39e11 17|3w6 30r32 37r26 18|4w6 41r26 176r32
+10R9*HeartType 18e17 17|30r38 37r32 18|41r32 176r38
+X 16 hrm.ads
+7K9*HRM 38e8 17|4w6 28r58 35r56 38r57 18|5w6 39r56 44r7 48r7 165r57 169r7
+. 174r58
+10R9*HRMType 16e17 17|28r62 35r60 38r61 18|39r60 165r61 174r62
+22U14*On 18|44s11
+25U14*Off 18|169s11
+32U14*GetRate 18|48s11
+X 17 icd.ads
+11K9*ICD 35E14 59l5 59e8 18|14b14 185l5 185t8
+13i4*INITIAL_TACHY_BOUND{22|15I12} 18|28r25
+16i4*INITIAL_JOULES{22|9I12} 18|29r30
+17i4*ABOVE_HEART_RATE{22|15I12} 18|93r34
+18i4*NUM_SIGNAL{integer} 18|101r19 117r19
+19i4*FIBR_BOUND{22|15I12} 18|140r30
+20i4*JOULES_PER_SIGNAL{22|9I12} 18|103r24
+21i4*TICKS_PER_MINUTE{integer} 18|94r26
+24R9*ICDType 27r29 28r32 35r30 38r31 40r40 41r45 42r42 44r41 45r43 47c9 57e17
+. 18|25r29 39r30 79r40 90r45 98r42 125r41 149r43 165r31 174r32
+27U14*Init 27<19 18|25b14 33l8 33t12
+27r19 Icd{24R9} 18|25b19 27m7 28m7 29m7 30m7 31m7 32m7
+28U14*Tick 28=19 28=41 29=19 30=19 18|174b14 182l8 182t12
+28r19 Icd{24R9} 18|174b19 178m11 179m10
+28r41 Monitor{16|10R9} 18|174b41 178m16 179m15
+29r19 Gen{19|10R9} 18|175b19 178m25 179m24 180r29
+30r19 Hrt{15|10R9} 18|176b19 179r29 180m34
+35U14 On 35=17 35=39 36=17 37>17 18|39b14 77l8 77t10 179s7
+35r17 Icd{24R9} 18|39b17 43m7 53m23 65m7 65m44 65r44 66m7 66m42 66r42 67r10
+. 67r37 69r43 70r13 70r39 72m28 73m25 74r13 75m25
+35r39 Monitor{16|10R9} 18|39b39 44m14 48r19
+36r17 Gen{19|10R9} 18|40b17 45m27 69m38 73m30 75m30
+37r17 Hrt{15|10R9} 18|41b17 44r23
+38U14 Off 38=18 38=40 39=18 18|165b14 171l8 171t11 178s7
+38r18 Icd{24R9} 18|165b18 168m7
+38r40 Monitor{16|10R9} 18|165b40 169m15
+39r18 Gen{19|10R9} 18|166b18 170m28
+40V13 IsTachycardia{boolean} 40=27 18|66s28 79b13 87l8 87t21
+40r27 Icd{24R9} 18|79b27 82r23
+41U14 CalculateInterval 41=32 18|72s10 90b14 95l8 95t25
+41r32 Icd{24R9} 18|90b32 92m7
+42U14 DeliverSignals 42=29 43=29 18|73s10 75s10 98b14 122l8 122t22
+42r29 Icd{24R9} 18|98b29 118m10
+43r29 Gen{19|10R9} 18|99b29 104m41 113m41
+44V13 IsFibrillation{boolean} 44=28 18|65s29 125b13 146l8 146t22
+44r28 Icd{24R9} 18|125b28
+45U14 UpdateRateArray 45=30 18|53s7 149b14 163l8 163t23
+45r30 Icd{24R9} 18|149b30
+49b10*IsOn{boolean} 18|27m11 43m11 168m11
+50i10*TachyBound{22|15I12} 18|28m11 82r27
+52i10*JoulesToDeliver{22|9I12} 18|29m11 69r47
+53b10*IsTachycardia{boolean} 18|30m11 66m11 70r17
+54b10*IsFibrillation{boolean} 18|31m11 65m11 67r14
+55b10*IsDelivering{boolean} 18|32m11 67r41 70r43 74r17 92m11 118m14
+X 18 icd.adb
+16i4 HeartRate{22|15I12} 48m28 50r19 82r10 93r22 153r37 157r34
+17a4 LastSixRate(22|15I12) 130r23 133r22 134r46 134r65 136r41 151r23 153m10
+. 155r19 156r20 157m16 159m16 159r34
+18i4 NumReading{integer} 130r10 151r10 152m10 152r24 153r22
+19i4 ImpulseRate{22|15I12} 93m7 94r45
+20i4 ImpulseInterval{integer} 94m7 106r34
+21i4 TickToNextImpulse{integer} 102r13 106m13 114m13 114r34 120m10
+22i4 Signal{integer} 101r10 105m13 105r23 109r25 117r10 119m10
+23i4 Impulse{22|15I12} 103m13 104r46 112m13 113r46
+126i7 AverageChange{22|15I12} 136m10 138r22 140r13
+127i7 SumOfChange{22|15I12} 134m13 134r28 136r27
+133i14 I{integer} 134r58 134r77
+155i14 I{integer} 156r16 157r28 159r28 159r46
+X 19 impulsegenerator.ads
+7K9*ImpulseGenerator 17|5w6 29r32 36r29 39r31 43r42 18|6w6 40r30 45r7 69r10
+. 99r42 104r13 113r13 166r31 170r7 175r32 180r7 19|38e21
+10R9*GeneratorType 17|29r49 36r46 39r48 43r59 18|40r47 99r59 166r48 175r49
+. 19|18e17
+24U14*On 18|45s24
+27U14*Off 18|170s24
+33U14*SetImpulse 18|69s27 104s30 113s30
+36U14*Tick 18|180s24
+X 22 measures.ads
+3K9*Measures 17|2w6 13r35 16r30 17r32 19r26 20r33 50r23 52r28 18|3w6 16r16
+. 17r48 19r18 23r14 126r23 127r21 22|35e13
+9I12*Joules{integer} 17|16r39 20r42 52r37
+15I12*BPM{integer} 17|13r44 17r41 19r35 50r32 18|16r25 17r57 19r27 23r23
+. 126r32 127r30
+X 23 network.ads
+6K9*Network 17|6w6 18|7w6 23|118e12
+X 24 principal.ads
+1K9*Principal 17|7w6 18|8w6 24|32e14
+

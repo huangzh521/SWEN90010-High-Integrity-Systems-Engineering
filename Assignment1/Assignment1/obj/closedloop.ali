@@ -1,0 +1,134 @@
+V "GNAT Lib v2017"
+A -gnatA
+A -mmacosx-version-min=10.13.4
+A -mtune=core2
+A -fPIC
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_ANONYMOUS_ALLOCATORS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U closedloop%b		closedloop.adb		8e8d1774 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W heart%s		heart.adb		heart.ali
+W hrm%s			hrm.adb			hrm.ali
+W icd%s			icd.adb			icd.ali
+W impulsegenerator%s	impulsegenerator.adb	impulsegenerator.ali
+W measures%s		measures.adb		measures.ali
+W network%s		network.adb		network.ali
+W principal%s		principal.adb		principal.ali
+
+U closedloop%s		closedloop.ads		c54badef EE NE OO PK
+
+D ada.ads		20170516105951 76789da1 ada%s
+D a-contai.ads		20170516105950 61e5e089 ada.containers%s
+D a-cdlili.ads		20170516105949 8e06b4f2 ada.containers.doubly_linked_lists%s
+D a-conhel.ads		20170516105951 20298884 ada.containers.helpers%s
+D a-except.ads		20170516105953 291912d5 ada.exceptions%s
+D a-finali.ads		20170516105954 bf4f806b ada.finalization%s
+D a-inteio.ads		20170516105955 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170516105949 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20170516105952 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20170516105952 119b8fb3 ada.streams%s
+D a-tags.ads		20170516105955 d3a89129 ada.tags%s
+D a-textio.ads		20170516105955 386df5d4 ada.text_io%s
+D a-tiinio.ads		20170516105950 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170516105954 31484697 ada.unchecked_conversion%s
+D closedloop.ads	20180310033950 c54badef closedloop%s
+D closedloop.adb	20180317075346 433418a0 closedloop%b
+D heart.ads		20180306232354 9fbc8907 heart%s
+D hrm.ads		20180306232354 070f95d8 hrm%s
+D icd.ads		20180317064736 0c390086 icd%s
+D impulsegenerator.ads	20180306232354 31c22809 impulsegenerator%s
+D interfac.ads		20170516105950 5ab55268 interfaces%s
+D i-cstrea.ads		20170516105950 e53d8b8e interfaces.c_streams%s
+D measures.ads		20180315143731 ab0ff7ab measures%s
+D network.ads		20180307133828 720bf374 network%s
+D principal.ads		20180307133304 ba98eec4 principal%s
+D system.ads		20170516105953 085b6ffb system%s
+D s-atocou.ads		20170516105956 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20170516105948 0ebbdb71 system.crtl%s
+D s-exctab.ads		20170516105954 54135002 system.exception_table%s
+D s-ficobl.ads		20170516105956 078245e4 system.file_control_block%s
+D s-finroo.ads		20170516105954 4ff27390 system.finalization_root%s
+D s-parame.ads		20170516105955 7e2a0d7f system.parameters%s
+D s-soflin.ads		20170516105951 14e1eb6c system.soft_links%s
+D s-stache.ads		20170516105955 a37c21ec system.stack_checking%s
+D s-stalib.ads		20170516105955 09bd3940 system.standard_library%s
+D s-stoele.ads		20170516105956 2dc34a04 system.storage_elements%s
+D s-traent.ads		20170516105950 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20170516105953 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20170516105954 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 16|1r6 1r23 2r6 2r31
+X 7 a-inteio.ads
+18K13*Integer_Text_IO[13|46] 16|2w10 2r35
+X 9 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[3|69]>
+X 12 a-textio.ads
+49K13*Text_IO 471e16 16|1w10 1r27
+166U14*New_Line 16|37s34 38s47 39s47 40s50
+242U14*Put 16|37s7
+X 15 closedloop.ads
+5K9*ClosedLoop 25l5 25e15 16|12b14 60l5 60t15
+16U13*Init 16|28b14 48l8 48t12
+23U13*Tick 16|50b14 58l8 58t12
+X 16 closedloop.adb
+14r4 Hrt{17|10R9} 43m18 52m49 52r49 53m18 53r18 54r25
+15r4 Monitor{18|10R9} 44m16 52m29 52r29 54m16 54r16
+16r4 Generator{20|10R9} 45m29 52m38 52r38
+17r4 IcdSoftware{19|24R9} 47m16 52m16 52r16
+19r4 Net{24|9R9} 46m20 56m20 56r20
+20p4 Card{25|7P9} 30r38 33r29 38r40
+21p4 Clin{25|7P9} 31r38 34r29 39r40
+22p4 Patient{25|7P9} 32r38 35r29 40r40
+24p4 KnownPrincipals(24|81A9) 33r7 34r7 35r7 46r24
+X 17 heart.ads
+7K9*Heart 16|5w6 14r10 43r7 53r7 17|39e11
+10R9*HeartType 16|14r16 17|18e17
+22U14*Init 16|43s13
+37U14*Tick 16|53s13
+X 18 hrm.ads
+7K9*HRM 16|6w6 15r14 44r7 54r7 18|38e8
+10R9*HRMType 16|15r18 18|16e17
+19U14*Init 16|44s11
+36U14*Tick 16|54s11
+X 19 icd.ads
+11K9*ICD 16|10w6 17r18 47r7 52r7 19|59e8
+24R9*ICDType 16|17r22 19|57e17
+27U14*Init 16|47s11
+28U14*Tick 16|52s11
+X 20 impulsegenerator.ads
+7K9*ImpulseGenerator 16|7w6 16r16 45r7 20|38e21
+10R9*GeneratorType 16|16r33 20|18e17
+21U14*Init 16|45s24
+X 23 measures.ads
+3K9*Measures 16|4w6 4r20 23|35e13
+X 24 network.ads
+6K9*Network 16|8w6 19r10 24r29 24r59 46r7 56r7 24|118e12
+9R9*Network 16|19r18 24|116e14
+81A9*PrincipalArray(25|7P9)<integer> 16|24r37 24r67
+86U14*Init 16|46s15
+102U14*Tick 16|56s15
+X 25 principal.ads
+1K9*Principal 16|9w6 20r11 20r41 21r11 21r41 22r14 22r44 30r7 30r47 31r7
+. 31r47 32r7 32r50 38r7 39r7 40r7 25|32e14
+4n18*Cardiologist{4E9} 16|30r57
+4n32*ClinicalAssistant{4E9} 16|31r57
+4n51*Patient{4E9} 16|32r60
+6R9*Principal 16|20r51 21r51 22r54 25|31e14
+7P9*PrincipalPtr(6R9) 16|20r21 21r21 22r24
+20U14*InitPrincipalForRole 16|30s17 31s17 32s17
+26U14*DebugPrintPrincipalPtr 16|38s17 39s17 40s17
+

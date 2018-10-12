@@ -1,0 +1,24 @@
+[GENERATED OBJECT FILE]
+b__manualoperationexample.o
+[PROJECT FILES]
+/Users/wry/Documents/Uni Melb/SE/2018 S1/high integrity/Assignment1/Ass1Integ/default.gpr
+20180318051930
+[BOUND OBJECT FILES]
+/Users/wry/Documents/Uni Melb/SE/2018 S1/high integrity/Assignment1/Ass1Integ/obj/measures.o
+/Users/wry/Documents/Uni Melb/SE/2018 S1/high integrity/Assignment1/Ass1Integ/obj/principal.o
+/Users/wry/Documents/Uni Melb/SE/2018 S1/high integrity/Assignment1/Ass1Integ/obj/randomnumber.o
+/Users/wry/Documents/Uni Melb/SE/2018 S1/high integrity/Assignment1/Ass1Integ/obj/heart.o
+/Users/wry/Documents/Uni Melb/SE/2018 S1/high integrity/Assignment1/Ass1Integ/obj/hrm.o
+/Users/wry/Documents/Uni Melb/SE/2018 S1/high integrity/Assignment1/Ass1Integ/obj/impulsegenerator.o
+/Users/wry/Documents/Uni Melb/SE/2018 S1/high integrity/Assignment1/Ass1Integ/obj/network.o
+/Users/wry/Documents/Uni Melb/SE/2018 S1/high integrity/Assignment1/Ass1Integ/obj/manualoperationexample.o
+[GENERATED SOURCE FILES]
+b__manualoperationexample.ads
+b__manualoperationexample.adb
+b__manualoperationexample.ali
+[RESULTING OPTIONS]
+-L/Users/wry/Documents/Uni Melb/SE/2018 S1/high integrity/Assignment1/Ass1Integ/obj/
+-L/Users/wry/Documents/Uni Melb/SE/2018 S1/high integrity/Assignment1/Ass1Integ/obj/
+-L/usr/local/gnat/lib/gcc/x86_64-apple-darwin14.5.0/6.3.1/adalib/
+-static
+/usr/local/gnat/lib/gcc/x86_64-apple-darwin14.5.0/6.3.1/adalib/libgnat.a
